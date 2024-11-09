@@ -29,3 +29,12 @@ print(matrix) # ->[[], []]
 element = 5
 matrix[0].append(element)
 print(matrix) # ->[[5], []]
+
+
+nums = [2,3,4,5,6,7,8,9]
+for i in range(len(nums)):
+    print(f'{i}', end='') # -> 01234567 ИНДЕКСЫ !!!
+
+nums = [2,3,4,5,6,7,8,9]
+for num in nums:
+    print(f'{num}', end='') # -> 23456789 ЭЛЕМЕНТЫ !!!
